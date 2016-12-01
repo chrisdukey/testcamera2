@@ -1,0 +1,6 @@
+rootProject.name = 'TestCamera2'
+
+include ':app'
+
+include ':local-react-native-camera'
+project(':local-react-native-camera').projectDir = new File(rootProject.projectDir,   '../node_modules/local-react-native-camera/android')
